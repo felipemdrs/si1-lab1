@@ -1,4 +1,4 @@
-si1-lab1
+Lab 1
 ========
 
 Repositório contendo códigos do Lab 1.
