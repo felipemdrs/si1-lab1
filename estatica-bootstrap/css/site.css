@@ -179,12 +179,12 @@
             border-right-width: 14px;
             left: -14px;
             right: auto;
-		
+        
         }
 }
 
 body{
-	background-color: rgb(252, 252, 252);
+    background-color: rgb(252, 252, 252);
 }
 
 .timeline-panel {
@@ -192,38 +192,38 @@ background-color: white !important;
 }
 
 .btn-convenci{
-	padding: 10px;
-	font-size: 20px;
-	margin-bottom: 5%;
-	margin-top: 5%;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 .my-footer{
-	padding: 10px;
-	border-top: 1px solid #eee;
-	background-color: white;
+    padding: 10px;
+    border-top: 1px solid #eee;
+    background-color: white;
 }
 
 .light-color {
-	color: rgb(226, 226, 226) !important;
+    color: rgb(226, 226, 226) !important;
 }
 
 .light-font-menu-bar {
-	color: rgb(226, 226, 226);
-	text-shadow: 0px 0px 4px rgba(117, 117, 117, 1);
-	box-shadow: 0px 0px 7px 0px rgba(50, 50, 50, 0.77);
-	-webkit-box-shadow: 0px 0px 7px 0px rgba(50, 50, 50, 0.77);
-	-moz-box-shadow: 0px 0px 7px 0px rgba(50, 50, 50, 0.77);
+    color: rgb(226, 226, 226);
+    text-shadow: 0px 0px 4px rgba(117, 117, 117, 1);
+    box-shadow: 0px 0px 7px 0px rgba(50, 50, 50, 0.77);
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow: 0px 0px 7px 0px rgba(50, 50, 50, 0.77);
 }
 
 .div-vertical-align{
-	margin-top:100px;
+    margin-top:100px;
 }
 
 .navbar-title {
-	font-size: 30px;
+    font-size: 30px;
 }
 
 a {
-	text-decoration:initial !important;
+    text-decoration:initial !important;
 }
