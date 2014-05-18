@@ -3,23 +3,24 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
+        <link rel="stylesheet" href="css/site.css" type="text/css">
         <title>SI1 - Cadastro</title>
     </head>
     <body>
-        <a href="index.html">Sistema de informa&ccedil;&atilde;o 1</a>
-        <hr/>
-        
-        <center>
+        <nav>
+            <a href="#" class="light-color">Sistema de informa&ccedil;&atilde;o 1</a>
+        </nav>
+        <div class="container panel div-vertical-align div-sm">
             <h2>Cadastrar na disciplina</h2>
             <form action="cadastrado.html" method="post" role="form">
-                </br>
+                <br/>
                 <input name="matricula" type="text" placeholder="Matr&iacute;cula" pattern="^[0-9]{9}$" required="" title="A matr&iacute;cula tem que ter o formato 111111111" maxlength="9"/>
-                </br></br>
+                <br/><br/>
                 <input name="disciplina" type="text" placeholder="Sistemas de informa&ccedil;&atilde;o 1" required="" disabled>
-                </br></br>
-                <input type="submit" class="btn btn-primary btn-login" value="Cadastre-se"/>
+                <br/><br/>
+                <input type="submit" class="btn btn-green xl-btn" value="Cadastre-se"/>
             </form>
-        </center>
-        </br>
+        </div>
+        <br/>
     </body>
 </html>
