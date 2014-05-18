@@ -3,43 +3,26 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         
-        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css" type="text/css">
         <link rel="stylesheet" href="css/site.css" type="text/css">
-        
-        <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>    
-        
         <title>SI1 - P&aacute;gina Inicial</title>
     </head>
     <body>
-        <nav class="navbar navbar-inverse navbar-static-top bar-color" role="navigation">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="#"><span class="light-color navbar-title">Sistema de informa&ccedil;&atilde;o 1</span></a>
-                </div>
-            </div>
+        <nav>
+            <a href="#" class="light-color">Sistema de informa&ccedil;&atilde;o 1</a>
         </nav>
-
         <div class="container">
-            <div class="page-header">
-                <h1 id="timeline">3 motivos para voc&ecirc; matricular-se em SI1</h1>
+            <div class="title">
+                <h1 class="h1-margin-bottom">3 motivos para voc&ecirc; matricular-se em SI1</h1>
             </div>
-            
-            <div class="row">
-              <div class="col-md-12">
-                <div class="panel panel-default">
-                  <div class="panel-body" style="padding:30px">
-                    <p>
-                        <img src="img/nazareno.jpg" class="img-circle" width="70px" style="float:left"/>
-                        <blockquote style="margin-left:80px">
-                            Ao t&eacute;rmino da disciplina voc&ecirc; estar&aacute; apto para desenvolver softwares de qualidade e ganhar bastante dinheiro.
-                            <small>Nazareno Andrade</small>
-                        </blockquote>
-                    </p>
-                  </div>
-                </div>
-              </div>
+            <div class="panel">
+                <p>
+                    <img src="img/nazareno.jpg" class="circle pull-left" width="70px"/>
+                    <blockquote>
+                        <i>"Ao t&eacute;rmino da disciplina voc&ecirc; estar&aacute; apto para desenvolver softwares de qualidade e ganhar bastante dinheiro."</i>
+                        <br />
+                        <small>- Nazareno Andrade</small>
+                    </blockquote>
+                </p>
             </div>
                 
             <ul class="timeline">
@@ -86,32 +69,21 @@
                     </div>
                 </li>
             </ul>
-        </div>
         
-        <center>
-            <a href="cadastro.html"><button class="btn btn-primary btn-success btn-convenci">Me convenci</button>
-            </a><button class="btn btn-primary btn-danger btn-convenci" style="margin-left:30px" data-toggle="modal" data-target="#modal-do-convencimento">N&atilde;o me convenceu</button>
-        </center>
-        
-        <div class="modal fade" id="modal-do-convencimento" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                        <h4 class="modal-title" id="myModalLabel">N&atilde;o convencido?</h4>
-                    </div>
-                    <div class="modal-body">
-                        <p>Como SI1 &eacute; uma disciplina obrigat&oacute;ria do curso, voc&ecirc; ter&aacute; que pag&aacute;-la de qualquer jeito, esteja interessado ou n&atilde;o voc&ecirc; ser&aacute; obrigado a coloc&aacute;-la para concluir o curso.</b>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
-                        <a href="cadastro.html"><button class="btn btn-primary btn-success">Convencido!</button></a>
-                    </div>
-                </div>
+            <center>
+                <a href="cadastro.html"><button class="btn xl-btn btn-green">Me convenci</button></a>&nbsp;&nbsp;
+                <a href="#convencimento"><button class="btn xl-btn btn-red">N&atilde;o me convenceu</button></a>
+            </center>
+            <br/>
+            <div class="panel">
+                <h2 name="convencimento"><a name="convencimento">N&atilde;o convencido?</a></h2>
+                <p>Como SI1 &eacute; uma disciplina obrigat&oacute;ria do curso, voc&ecirc; ter&aacute; que pag&aacute;-la de qualquer jeito, esteja interessado ou n&atilde;o voc&ecirc; ser&aacute; obrigado a coloc&aacute;-la para concluir o curso.</b>
+                <br/>
+                <br/>
+                <a href="cadastro.html"><button class="btn xl-btn btn-green">Convencido!</button></a>
             </div>
         </div>
-        
-        <div class="container footer my-footer">
+        <div>
             Lab1 - Parte 2
         </div>
     </body>
