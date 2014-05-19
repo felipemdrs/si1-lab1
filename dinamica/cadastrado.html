@@ -9,7 +9,7 @@
         
         <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>    
-        
+        <script type="text/javascript" src="js/cadastro.js"></script>
         <title>SI1 - Cadastrado</title>
     </head>
     <body>
@@ -32,8 +32,57 @@
                     </div>
                     <div class="panel-body" style="padding:30px">
                         <p>Bem-vindo a disciplina de Sistema de informa&ccedil;&atilde;o I. Esperamos que est&aacute; disciplina seja de grande utilidade para voc&ecirc;.</p>
-                        </br>
-                        <a href="index.html"><button class="btn btn-primary" style="align:right !important">P&aacute;gina inicial</button></a>
+                        <br/>
+                        <div class="row">
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    <label>O que voc&ecirc; deseja aprender?</label>
+                                </div>
+                                <div class="col-sm-12">
+                                    <input type="text" id="add-input" class="form-control" placeholder="Digite aqui..." maxlength="28"/>
+                                </div>
+                            </div>
+                        </div>
+                        <br/>
+                        <div class="row">
+                            <div class="form-group">
+                                <div class="col-sm-4">
+                                    <input type="button" id="add-button" class="btn btn-warning btn-login" value="Adicionar" />
+                                </div>
+                            </div>
+                        </div>
+                        <br/>
+                        <div class="row">
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h3 class="panel-title">Assuntos para aprender</h3>
+                                        </div>
+                                        <div class="panel-body" style="height:92px;max-height:92px;overflow: auto;">
+                                            <ul class="list-group" id="para-aprender">
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h3 class="panel-title">Assuntos aprendidos</h3>
+                                        </div>
+                                        <div class="panel-body" style="height:92px;max-height:92px;overflow: auto;">
+                                            <ul class="list-group" id="aprendidos">
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="index.html"><button class="btn btn-primary" style="align:right !important">Continuar</button></a>
                     </div>
                 </div>
               </div>
