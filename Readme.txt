@@ -1,1 +1,1 @@
-Este repositório contém os códigos do lab1 de SI
+Este repositório contém os códigos do lab1 de SI1-UFCG
